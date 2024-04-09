@@ -8,7 +8,7 @@
     <!-- boxicons icon -->
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
-<body class="show-chatbot">
+<body>
     <button class="chatbot-toggler">
         <span><i class='bx bx-comment'></i></span>
         <span><i class='bx bx-exit'></i></span>
@@ -16,20 +16,22 @@
     <div class="chatbot">
         <header>
             <h2>Chatbot</h2>
+            <span class="close-btn"><i class='bx bx-exit'></i></span>
         </header>
         <ul class="chatbox">
             <li class="chat incoming">
                 <span class="material-symbols-outlined"><i class='bx bxs-face'></i></span>
                 <p>Hi there <br> How can I help you today?</p>
             </li>
-            <li class="chat outgoing">
+            <!-- <li class="chat outgoing">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
-            </li>
+            </li> -->
         </ul>
         <div class="chat-input">
             <textarea placeholder="Enter a message..." required></textarea>
             <span id="send-btn"><i class='bx bx-send'></i></span>
         </div>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
